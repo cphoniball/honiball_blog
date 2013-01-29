@@ -1,0 +1,2 @@
+<?php /* Template Name: About */ get_header(); ?><?php while ( have_posts() ) : the_post(); ?> <h2 class="centered"><?php the_title(); ?></h2><div class="page-content">	<?php the_content(); ?></div> <?php endwhile; ?> 
+<?php get_footer(); ?>
